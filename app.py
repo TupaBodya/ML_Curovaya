@@ -65,7 +65,3 @@ def gen_frames():
 @app.route('/live')
 def live():
     return render_template('live.html')
-
-
-if __name__ == '__main__':
-    app.run(debug=True)
